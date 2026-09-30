@@ -2,20 +2,20 @@
 
 #### Install using Git
 
-If you are a Git user, you can install the theme and keep it up to date by cloning the repo:
+If you use Git, clone the repository to install the theme and keep it up to date:
 
 ```bash
-git clone https://github.com/lfreixial/lazydocker.git
+git clone https://github.com/dracula/lazydocker.git
 ```
 
 #### Install manually
 
-Download using the [GitHub `.zip` download](https://github.com/lfreixial/lazydocker/archive/main.zip) option and unzip it.
+Download the [GitHub `.zip` archive](https://github.com/dracula/lazydocker/archive/main.zip), then extract it.
 
 #### Activating theme
 
-1. Open lazydocker's configuration file by selecting the Status panel and pressing `e`. On Linux, it is usually `~/.config/lazydocker/config.yml` (or `$XDG_CONFIG_HOME/lazydocker/config.yml` when set).
-2. Copy the `gui.theme` block from [`config/dracula.yml`](./config/dracula.yml) into your configuration. If you already have a `gui:` section, merge `theme:` into it; keep your other settings and avoid duplicate `gui:` or `theme:` keys. For an empty configuration, copy the entire file.
+1. Open lazydocker's configuration file by selecting the Status panel and pressing `e`. On Linux, the file is usually located at `~/.config/lazydocker/config.yml`, or at `$XDG_CONFIG_HOME/lazydocker/config.yml` if `XDG_CONFIG_HOME` is set.
+2. Copy the `gui.theme` block from [`config/dracula.yml`](./config/dracula.yml) into your configuration file. If it already contains a `gui:` section, add or replace its `theme:` block while preserving your other settings. Do not create duplicate `gui:` or `theme:` keys. If the configuration file is empty, copy the entire contents of `config/dracula.yml`.
 3. Restart `lazydocker`.
 
-For the matching background, foreground, and ANSI colors, also use a [Dracula theme for your terminal](https://draculatheme.com/). Lazydocker inherits these colors from the terminal; its `gui.theme` controls the borders, selected row, and options text.
+For matching background, foreground, and ANSI colors, install a [Dracula theme for your terminal](https://draculatheme.com/?categories=terminal). Lazydocker inherits these colors from your terminal, while its `gui.theme` settings control borders, the selected row, and option text.

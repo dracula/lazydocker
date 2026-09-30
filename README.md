@@ -10,11 +10,11 @@ All instructions can be found at [INSTALL.md](./INSTALL.md).
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/lfreixial/lazydocker/graphs/contributors).
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/lazydocker/graphs/contributors).
 
 | [![Luis Freixial](https://github.com/lfreixial.png?size=100)](https://github.com/lfreixial) |
-| ------------------------------------------------------------------------------------ |
-| [Luis Freixial](https://github.com/lfreixial) |
+| ------------------------------------------------------------------------------------------- |
+| [Luis Freixial](https://github.com/lfreixial)                                               |
 
 ## Community
 
